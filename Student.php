@@ -16,12 +16,15 @@ class Student {
         $this->grades = array();
     }
     
-    // add an email to the student
+    // add an email to the student.
+    // $which is the type of email (home, work, etc.)
+    // $address is the email address
     function add_email($which, $address) {
         $this->emails[$which] = $address;
     }
     
     // add a grade to the student
+    // $grade is the grade to add
     function add_grade($grade) {
         $this->grades[] = $grade;
     }
