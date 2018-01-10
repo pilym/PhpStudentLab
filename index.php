@@ -38,6 +38,8 @@
         $third->surname = "Li";
         $third->first_name = "Paul";
         $third->add_email('home', 'bigdudeoncampus@notgmail.com');
+        $third->add_email('school', 'paul@bcit.ca');
+        $third->add_email('work', 'paul@qwertydrift.cc');
         $third->add_grade(100);
         $third->add_grade(85);
         $third->add_grade(55);
